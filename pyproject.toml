@@ -3,6 +3,8 @@ name = "reddit-mod-helper"
 version = "0.1.0"
 description = "Moderación de subreddits asistida por un LLM local (Ollama)"
 readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
 authors = [
     { name = "ArthurSStrong" }
 ]

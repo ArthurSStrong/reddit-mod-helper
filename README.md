@@ -219,6 +219,10 @@ docs/private/
 
 `CLAUDE.md` (guía para trabajar en este repo con Claude Code) existe localmente pero no se versiona — ver `.gitignore`.
 
+### Licencia
+
+[MIT](./LICENSE) — libre para usar, copiar, modificar y redistribuir, con y sin fines comerciales, siempre que se mantenga el aviso de copyright. Sin garantía de ningún tipo (ver el texto completo en `LICENSE`).
+
 ---
 
 ## English
@@ -435,3 +439,7 @@ docs/private/
 ```
 
 `CLAUDE.md` (guidance for working in this repo with Claude Code) exists locally but isn't version-controlled — see `.gitignore`.
+
+### License
+
+[MIT](./LICENSE) — free to use, copy, modify, and redistribute, commercially or not, as long as the copyright notice is kept. No warranty of any kind (see the full text in `LICENSE`).
