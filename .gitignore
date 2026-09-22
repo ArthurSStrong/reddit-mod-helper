@@ -1,0 +1,33 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Credenciales locales (client_id/client_secret de Reddit, etc.)
+.env
+
+# Estado local (SQLite con los IDs de posts ya evaluados, se regenera solo)
+data/
+
+# Reglas, prompts y mapeo de removal reasons REALES del subreddit configurado
+# -- identifican qué comunidad se modera y cómo. Se versionan los *.example
+# en su lugar; copia cada uno sin el ".example" y edítalo con tus datos reales.
+lib/rules.MD
+lib/prompt.md
+lib/prompt_imagen.md
+lib/removal_reasons.json
+
+# Documentación con detalles operativos reales (subreddit, cuenta moderadora,
+# posts reales removidos, IDs específicos) -- no debe hacerse pública. La
+# documentación en docs/ (fuera de esta carpeta) debe quedar genérica.
+docs/private/
+
+# Guía interna para Claude Code -- no se publica, se queda solo local.
+CLAUDE.md
+

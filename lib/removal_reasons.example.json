@@ -1,0 +1,8 @@
+{
+  "_comentario": "Copia este archivo a removal_reasons.json y completa con los reason_id reales de tu subreddit. Se obtienen así: reddit = build_reddit_client(); [print(r.id, r.title) for r in reddit.subreddit('tu_subreddit').mod.removal_reasons]. Las llaves de 'reglas' son los números de las reglas en lib/rules.MD. Si el archivo no existe, o una regla no está mapeada, se usa 'default' (o ninguna categorización si tampoco hay 'default').",
+  "reglas": {
+    "1": "",
+    "5": ""
+  },
+  "default": ""
+}

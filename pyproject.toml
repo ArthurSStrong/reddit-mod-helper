@@ -1,0 +1,24 @@
+[project]
+name = "reddit-mod-helper"
+version = "0.1.0"
+description = "Moderación de subreddits asistida por un LLM local (Ollama)"
+readme = "README.md"
+authors = [
+    { name = "ArthurSStrong" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "praw>=8.0.3",
+    "prawcore>=4.0.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+reddit-mod-helper = "reddit_mod_helper:main"
+reddit-mod-helper-imagenes = "reddit_mod_helper.image_moderation:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
